@@ -2,6 +2,35 @@
 
 Experiments with implementing inform7 style syntax with clojure and core.logic.  My intent is to learn more about declarative logic, constraints, predicates, and natural language.
 
+
+
+
+
+### Reading list
+
+Natural Language, Semantic Analysis and Interactive Fiction (Graham Nelson, 2005-06)
+http://inform7.com/learn/documents/WhitePaper.pdf
+
+REPRESENTING GAME DIALOGUE AS EXPRESSIONS IN FIRST-ORDER LOGIC - Kaylen Wheeler
+http://ir.lib.uwo.ca/cgi/viewcontent.cgi?article=2646&context=etd
+
+http://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf
+
+Predicate dispatching: A unified theory of dispatch
+http://homes.cs.washington.edu/~mernst/pubs/dispatching-ecoop98-abstract.html
+
+David Nolen, Pattern Matching & Predicate Dispatch
+http://vimeo.com/27860102
+
+Natural Language Processing in Lisp: An Introduction to Computational Linguistics
+http://www.amazon.com/gp/product/0201178257/
+
+Chris Martens's papers
+http://www.cs.cmu.edu/~cmartens/
+http://www.cs.cmu.edu/~cmartens/njpls-may2014/njpls.pdf
+
+
+
 ### logic proxies
 
 I'd like to track logical values with a proxy, at least until I understand core.logic types better.
@@ -19,7 +48,7 @@ Some solving queries can be answered by the predicates alone, during a prepass p
 ;0
 ;the empty? constraint provided a solution.
 
-the to-string of cvars shows a #uid, constraints, and the dependent inputs.
+;the to-string of cvars shows a #uid, constraints, and the dependent inputs.
 
 ```
 
@@ -85,4 +114,4 @@ above 100. {:value (cvar number?) :combination (cvar number? #(> (count %) 100))
 ```
 
 
-http://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf
+

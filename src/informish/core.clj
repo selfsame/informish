@@ -85,7 +85,7 @@
 
 
 (defn remove-ws [col]
-  (filter #(not= (string/trim %) "") col))
+  (filter #(not= (string/trim (str %)) "") col))
 
 (defn insert-token [st [pattern sub]]
   (let [found (re-find (re-pattern pattern) (str " " (string/lower-case st) " "))

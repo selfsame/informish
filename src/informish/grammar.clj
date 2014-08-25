@@ -220,7 +220,7 @@
 (ok '[:d first :contents of :1])
 
 
-(def dv [grinding tire])
+;(def dv [grinding tire])
 
 
 (ok '["grinding" is a :wheel])
