@@ -93,3 +93,6 @@ A safe is a type of box, safes have a number called combination {:combination (c
 A vault is a kind of safe, and a kind of asset. The combination of a vault is a number
 above 100. {:value (cvar number?) :combination (cvar number? #(> (count %) 100))}
 ```
+
+
+http://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf
