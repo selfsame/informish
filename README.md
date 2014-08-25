@@ -1,16 +1,6 @@
 # informish
 
-Experiments with designing a natural language in clojure, inspired by Inform7.
-
-## Roadmap
-
-Inform7 is declaratively written, but under the hood is imperitive with objects, inheritence, and array based relations.
-
-It's also a lot of fun.
-
-I imagine a language with similar syntax on top of clojure.  A subset of data types and functions would be available.
-
-Clojure's core.logic would be used to implement the declared relations and constraints.
+Experiments with implementing inform7 style syntax with clojure and core.logic.  My intent is to learn more about declarative logic, constraints, predicates, and natural language.
 
 ### logic proxies
 
